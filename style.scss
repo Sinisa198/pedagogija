@@ -1,0 +1,261 @@
+$mycolor:#334e70;
+$wt:white;
+$bl:black;
+$gr:gray;
+$lt:lightblue;
+$gr:green;
+$r:red;
+$sk:skyblue;
+$lc:lightcyan;
+
+
+
+*
+{
+  padding:0;
+  margin:0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+  width: 100%;
+  height: 100vh;
+  background:$wt;
+  .nav{
+    width: 100%;
+    display: flex;
+    left:0;
+    background: $sk;
+    align-items:center;
+    justify-content: space-around;
+
+    .logo{
+      color:$lt;
+      margin-top:20px;
+      margin-bottom:20px;
+      margin-left:100px;
+      span{
+        color:$bl;
+            }
+    }
+    ul,li{
+      display: inline-block;
+      padding:0 10px;
+      margin-right: 60px;
+      a{
+        
+        font-weight: bold;
+        font-size:1.2rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:$mycolor;
+        text-decoration: none;
+      }
+    }
+  }
+  .text{
+    position: absolute;
+    width: 50%;
+    margin-left: 20%;
+    line-height: 55px;
+    display: block;
+    top:28%;
+    color:$bl;
+
+    h3{
+      font-size:50px;
+      color:$mycolor;
+      font-weight: 400;
+    
+    }
+    p{
+      font-size:30px;
+      font-weight: 400;
+      color:$mycolor;
+      
+    }
+    
+    .images{
+      float:right;
+      margin-top:-200px;
+      margin-right: -250px;
+      width: 450px;
+      border-radius: 30px;
+      border:2px solid $lt;
+      height: 300px;
+    }
+    .about{
+      text-align: center;
+    }
+    h2{
+      font-weight: 400;
+      font-size:30px;
+      color:$mycolor;
+      word-spacing: 10px;
+      font-weight: bold;
+      padding-top:30px;
+    
+    }
+    .btn{
+      margin:25px 10px;
+      display: block;
+      
+  
+    }
+    .btn a{
+      background:$lt;
+      border:2px solid blue;
+      padding:10px 15px;
+      color:$mycolor;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin:0 10px;
+      font-weight: bold;
+      font-size:20px;
+      position: relative;
+    }
+  }
+ 
+}
+.biografija{
+  text-align:center;
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  color:$mycolor;
+  
+
+  
+}
+.slika{
+  float:left;
+  margin-top:10px;
+  border-radius:20px;
+}
+.text2{
+  font-size:20px;
+  margin-top:150px;
+  margin-right: 50px;
+  height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.he{
+  background:skyblue;
+  height: 40px;
+  text-align: center;
+  color:$wt;
+  padding:1px;
+  margin-top:-220px;
+}
+.inner{
+  margin-top:-240px;
+  background:$lc;
+}
+.header2{
+  text-align: center;
+  color:$mycolor;
+  padding:1rem;
+  position: relative;
+
+}
+.header2:after{
+  content: "";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 100px;
+  background:$mycolor;
+}
+.kontejner{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  grid-gap:1fr;
+  padding: 1rem 80px;
+}
+.skill-icon{
+  border-radius:10px;
+  width: 300px;
+  height: 200px;
+
+}
+.img2{
+  width: 300px;
+  height: 200px;
+}
+.skill-box{
+  padding:1rem;
+  color:$bl;
+  cursor: pointer;
+}
+.skill-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0.5rem;
+  margin-bottom:0.5rem;
+}
+
+.containerr{
+  max-width: 400px;
+  margin:0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top:80px;
+  padding-bottom:80px;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  background:$sk;
+  height: 500px;
+  margin-top:50px;
+  
+}
+.kot{
+  height: 100vh;
+  
+}
+.naslov{
+  text-align: center;
+  margin-tOp:70px;
+  color:$mycolor;
+}
+.column{
+  flex:0 0 100%;
+  padding: 0 15px;
+
+}
+.column.half{
+  flex: 0 0 50%;
+}
+.pocetak{
+  margin-top:-30px;
+  
+}
+input, textarea{
+  width: 100%;
+  padding:15px 20px;
+  margin: 0 0 30px;
+  font-family: arial;
+  background:$wt;
+  border-radius: 3px;
+  font-size:16px;
+  border:0;
+}
+textarea{
+  height: 150px;
+  resize:none;
+}
+input[type="submit"]{
+  display: block;
+  margin:0 auto;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  background:darkblue;
+  font-size:18px;
+  color:$wt;
+
+}

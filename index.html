@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedagogija</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="nav">
+      <h1 class="logo" ><a name="prvi"></a>-PEDA<span>GOGIJA</span>- </h1>
+      <ul>
+        <li><a href="#prvi">Pocetna</a></li>
+        <li><a href="#drugi">O meni</a></li>
+        <li><a href="#treci">Vestine</a></li>
+        <li><a href="#cetvrti">Kontakt</a></li>
+      </ul>
+    </div>
+    <div class="text">
+      <h3>Dobro dosli!</h3>
+      <h2 class="pocetak">Vas diplomirani pedagog </h2>
+      <p>Stanislava Mijatovic</p>
+      <img src="./images/pozadina.jpg" class="images">
+      <div class="btn">
+        <a href="https://hr.wikipedia.org/wiki/Pedagogija">Vise o pedagogiji</a> 
+      </div>
+    </div>
+    
+    </div>
+  </div>
+  <section class="omeni">
+    <div class="biografija">
+      <h1><a name="drugi"></a>-O meni-</h1>
+      <img src="./images/omenislika.jpg" class="slika">
+      <p class="text2">Kao važan element vaše poslovne slike
+         potpis e-pošte mora biti generisan na vešt način. Pokušaj stvaranja vlastiti
+          naporima oduzima puno vremena koje bi se moglo potrošiti na važnije zadatke.
+          Email potpis je generator potpisa koji pomaže u stvaranju profesionalnih
+         i vizuelno privlačnih potpisa e-pošte za Gmail klijente. Nije potrebno tehničko znanje.
+
+         </p>
+         
+         
+    </div>
+    
+
+    
+  </section>
+
+  <div class="inner">
+    <div class="header2">
+      <h1><a name="treci"></a>Vestine</h1>
+    </div>
+
+    <div class="kontejner">
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="img2">
+            <img src="./images/zabavasamdecom.jpg" class="skill-icon">
+          </div>
+          <h3>Zabava sa decom</h3>
+          </div>
+          <p>Sa decom se treba igrati i posvecivati mnogo paznje</p>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img2">
+              <img src="./images/strpljivost.jpg" class="skill-icon">
+            </div>
+            <h3>Strpljivost            </h3>
+            </div>
+            <p>Treba imati puno strpljenja zbog njih</p>
+          </div>
+          <div class="skill-box">
+            <div class="skill-title">
+              <div class="img2">
+                <img src="./images/empatija.jpg" class="skill-icon">
+              </div>
+              <h3>Sposobnost razvijanja empatije
+              </h3>
+              </div>
+              <p>Razvijanje empatije dodje sa radom </p>
+            </div>
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="img2">
+                  <img src="./images/decijinacin.jpg" class="skill-icon">
+                </div>
+                <h3>Prilagodljivost razmišljanja na dečiji način
+                </h3>
+                </div>
+                <p>Morate postati dete kada radite sa decom</p>
+              </div>
+              <div class="skill-box">
+                <div class="skill-title">
+                  <div class="img2">
+                    <img src="./images/razmisljanjedece.jpg" class="skill-icon">
+                  </div>
+                  <h3>Poznavanje načina razmišljanja dece</h3>
+                  </div>
+                  <p>Deca ne znaju sve, morate da ih polako ucite</p>
+                </div>
+                <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="img2">
+                      <img src="./images/ljubavpremadeci.jpg" class="skill-icon">
+                    </div>
+                    <h3>Ljubav prema deci
+                    </h3>
+                    </div>
+                    <p>I za sam kraj ljubav je najbitnija</p>
+                  </div>
+                  
+                    </div>
+                    
+      
+</div>
+<h1 class="naslov"><a name="cetvrti"></a>Kontakt</h1>
+<div class="containerr">
+  
+  <form class="kot" onsubmit="checkforblank()">
+    <h1></h1>
+    <div class="row">
+      <div class="column">
+        <input type="text" placeholder="Ime"  id="Name" name="Name" required>
+      </div>
+      <div class="column">
+        <input type="text" placeholder="Email" name="Email" required on invalid="this.setCustomValidity('Unesite ime')" 
+        on input="this.setCustomValidity('Unesite ime')" >
+      </div>
+      <div class="column">
+        <input type="text" placeholder="Telefon" name="Phone" required on invalid="this.setCustomValidity('Unesite ime')" 
+        on input="this.setCustomValidity('Unesite ime')" >
+      </div>
+      <div class="column">
+        <textarea placeholder="Poruka" name="Message" required on invalid="this.setCustomValidity('Unesite ime')" 
+        on input="this.setCustomValidity('Unesite ime')" ></textarea>
+      </div>
+      <div class="column">
+        <input type="submit" value="Posalji">
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: white;
+}
+
+.header .nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  background: skyblue;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header .nav .logo {
+  color: lightblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.header .nav .logo span {
+  color: black;
+}
+
+.header .nav ul, .header .nav li {
+  display: inline-block;
+  padding: 0 10px;
+  margin-right: 60px;
+}
+
+.header .nav ul a, .header .nav li a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #334e70;
+  text-decoration: none;
+}
+
+.header .text {
+  position: absolute;
+  width: 50%;
+  margin-left: 20%;
+  line-height: 55px;
+  display: block;
+  top: 28%;
+  color: black;
+}
+
+.header .text h3 {
+  font-size: 50px;
+  color: #334e70;
+  font-weight: 400;
+}
+
+.header .text p {
+  font-size: 30px;
+  font-weight: 400;
+  color: #334e70;
+}
+
+.header .text .images {
+  float: right;
+  margin-top: -200px;
+  margin-right: -250px;
+  width: 450px;
+  border-radius: 30px;
+  border: 2px solid lightblue;
+  height: 300px;
+}
+
+.header .text .about {
+  text-align: center;
+}
+
+.header .text h2 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #334e70;
+  word-spacing: 10px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.header .text .btn {
+  margin: 25px 10px;
+  display: block;
+}
+
+.header .text .btn a {
+  background: lightblue;
+  border: 2px solid blue;
+  padding: 10px 15px;
+  color: #334e70;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+}
+
+.biografija {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #334e70;
+}
+
+.slika {
+  float: left;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.text2 {
+  font-size: 20px;
+  margin-top: 150px;
+  margin-right: 50px;
+  height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.he {
+  background: skyblue;
+  height: 40px;
+  text-align: center;
+  color: white;
+  padding: 1px;
+  margin-top: -220px;
+}
+
+.inner {
+  margin-top: -240px;
+  background: lightcyan;
+}
+
+.header2 {
+  text-align: center;
+  color: #334e70;
+  padding: 1rem;
+  position: relative;
+}
+
+.header2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 4px;
+  width: 100px;
+  background: #334e70;
+}
+
+.kontejner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  grid-gap: 1fr;
+  padding: 1rem 80px;
+}
+
+.skill-icon {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.img2 {
+  width: 300px;
+  height: 200px;
+}
+
+.skill-box {
+  padding: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+.skill-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.containerr {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-radius: 15px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: skyblue;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.kot {
+  height: 100vh;
+}
+
+.naslov {
+  text-align: center;
+  margin-tOp: 70px;
+  color: #334e70;
+}
+
+.column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  padding: 0 15px;
+}
+
+.column.half {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.pocetak {
+  margin-top: -30px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 0 0 30px;
+  font-family: arial;
+  background: white;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 0;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  background: darkblue;
+  font-size: 18px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
